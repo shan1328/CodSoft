@@ -1,0 +1,176 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #2a394a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed; /* Keep header always visible */
+    width: 100%;
+    z-index: 100; /* Ensure header stays on top */
+  }
+  
+  .nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav a:hover {
+    background-color: #405870;
+  }
+  
+  main {
+    padding-top: 100px; /* Account for header height */
+  }
+  
+  .hero {
+    background-color: #fff;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  
+  .hero-content {
+    text-align: left;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #2a394a;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: #405870;
+  }
+  
+  .hero-image {
+    width: 50%;
+  }
+  
+  .button {
+    background-color: #2a394a;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .benefits,
+  .services,
+  .testimonials,
+  .cta {
+    background-color: #f2f2f2;
+    padding: 2rem;
+  }
+  
+  .benefits h2,
+  .services h2,
+  .testimonials h2,
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2a394a;
+  }
+  
+  .benefit-card,
+  .service-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .benefit-card img,
+  .service-card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+  }
+  
+  .benefit-card h3,
+  .service-card h4 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .benefit-card p {
+    font-size: 1.5rem;
+    color: #405870;
+    margin-left: 2.5rem;
+    margin-bottom: 0;
+  }
+  
+  .testimonial {
+    border-left: 5px solid #2a394a;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial p {
+    font-size: 1.1rem;
+  }
+  
+  footer {
+    background-color: #2a394a;
+    text-align: center;
+    padding: 1rem 2rem;
+    color: white;
+  }
+
+  .services {
+    background-color: #f2f2f2;
+    padding: 2rem;
+  }
+  
+  .services h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #2a394a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font style */
+  }
+  
+  .service-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem; /* Add spacing between service cards */
+  }
+  
+  .service-card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+  }
+  
+  .service-card h4 {
+    font-size: 1.5rem; /* Increase font size */
+    margin-bottom: 0.5rem;
+    color: #2a394a; /* Change text color */
+  }
+  
+  .service-card p {
+    font-size: 1.2rem;
+    color: #2a394a;
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+  }
+  
